@@ -2,8 +2,8 @@
 
 ### Description:
 Work with list methods in Python
-## Exercise
 
+## Instructions: Part 1
 1. Use `append()` to add Jupiter and Saturn at the end of the list.
 1. Use the `extend()` method to add another list of the last two planets in our solar system to the end of the list.
 1. Use `insert()` to add Earth, and Venus in the correct order.
@@ -25,6 +25,16 @@ planets.py
 
 ```
 
+## Instructions: Part 2
+
+1. Using the `random` module and the `range` method, generate a list of 20 random numbers between 0 and 49.
+    ```
+    import random
+
+    random_numbers = [...insert awesome code here...]
+    print(random_numbers)
+    ```
+2. With the resulting list, use a list comprehension to build a new list that contains each number squared. For example, if the original list is `[2, 5]`, the final list will be `[4, 25]`.
 
 ### Contributors:
 [Meghan Debity](https://github.com/Megraohoh)
