@@ -4,4 +4,8 @@ import random
 random_numbers = random.sample(range(50), k=20)
 print(random_numbers)
 
+
 # 2. With the resulting list, use a list comprehension to build a new list that contains each number squared. For example, if the original list is `[2, 5]`, the final list will be `[4, 25]`.
+
+numbers_squared = [k**2 for k in random_numbers]
+print(numbers_squared)
